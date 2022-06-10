@@ -298,7 +298,7 @@ Resources:
         Type: AWS::ElasticLoadBalancingV2::TargetGroup
         DependsOn: WebAppLB
         Properties:
-            HealthCheckIntervalSeconds: 120
+            HealthCheckIntervalSeconds: 150
             HealthCheckPath: /
             HealthCheckProtocol: HTTP
             HealthCheckTimeoutSeconds: 8
