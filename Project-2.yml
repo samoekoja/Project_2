@@ -239,7 +239,7 @@ Resources:
                   apt-get install apache2 -y
                   systemctl start apache2.service
                   cd /var/www/html
-                  echo "It Works! Udagram, Udacity" > index.html          
+                  echo "<h1>It works!</h1><h2>Udagram, Udacity</h2><br><h3><strong>Samuel Ekoja</strong></h3>" > index.html          
             ImageId: ami-0c4f7023847b90238
             SecurityGroups:
             - Ref: WebServerSecGroup
