@@ -1,1 +1,1 @@
-aws cloudformation create-stack --stack-name $1 --template-body file://$2  --parameters file://$3 --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
+aws cloudformation create-stack --stack-name udacity-project-2 --template-body file://Project-2.yml  --parameters file://Project-2.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
