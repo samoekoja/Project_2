@@ -1,9 +1,0 @@
-Description:
-  My Udacity Project 2 | Samuel Ekoja
-
-Parameters:
-
-  EnvironmentName:
-    Description: An environment name that will be prefixed to resources
-    Type: String
-    
